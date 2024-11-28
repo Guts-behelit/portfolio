@@ -1,0 +1,158 @@
+.menu{
+    display: none;
+}
+.headerContainer{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+.headerContainer > .logoContainer{
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer > img{
+    width: 50px;
+    height: 100%;
+    border-radius:10px ;
+    object-fit: cover;
+}
+.logoContainer > span{
+    color: black;
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: "Rock Salt", cursive;
+    display: inline-block;
+}
+.navContainer{
+    width: 60%;
+    height: 100%;
+    padding: 10px 0px;
+    background-color: transparent;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    
+}
+.navContainer ul{
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.navContainer ul >li{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+background-color: transparent;
+}
+.navContainer > .listNavContainer >li{
+    background-color: transparent;
+    border-bottom: solid 2px transparent;
+    cursor:default;
+}
+.listNavContainer >li > a{
+    display: block;
+    padding-bottom: 5px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+}
+.navContainer > .listNavContainer >li:hover{
+border-bottom: solid 2px  rgba(174,45,253,1);
+;
+}
+.navContainer > .listRedesContainer{
+    padding: 0 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.listRedesContainer > li{
+    padding: 0;
+    margin: 0 10px;
+    background-color: aliceblue;
+}
+.listRedesContainer > li > a:visited {
+    color: inherit; /* Mantiene el color original */
+  }
+.listRedesContainer > li > .github{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.listRedesContainer > li > .linkedin{
+    color: blue;
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    .headerContainer{
+        justify-content: space-between;
+        padding: 0.6rem 10px;
+    }
+    .menu{
+        padding: 10px ;
+        font-size: 1.4rem;
+        border: none;
+        display: flex;
+        border-radius: 10px;
+        color: black;
+    }
+    .navContainer{
+        width: 200px;
+        height: auto;
+        padding: 20px 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        z-index: 6;
+        transition: all 1s ease-in-out;
+
+    }
+    .navContainer > .listRedesContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    
+    .navContainer > .listNavContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .listRedesContainer > li > a:visited {
+        color: inherit; /* Mantiene el color original */
+      }
+      .listRedesContainer > li > .github{
+        color: black;
+    }
+    .listRedesContainer > li > .tiktok{
+        color: black;
+    }
+    .listRedesContainer > li > .instagram{
+        color: rgb(255, 0, 234);
+    }
+    .listRedesContainer > li > .discord{
+        color: rgb(89, 0, 255);
+    }
+}

@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Build output
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor config
+.idea/
+.vscode/
+
+# Misc
+*.sublime-workspace
+*.sublime-project
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Test output
+/coverage/
+
+# React Native
+.expo/
+
+# Package-lock
+package-lock.json
+yarn.lock
+
+# Ignore npm 5+ lock files, if you're using yarn
+yarn.lock

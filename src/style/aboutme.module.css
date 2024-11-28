@@ -1,0 +1,109 @@
+.aboutMeContainer {
+    width: 100%;
+    padding: 0 1rem;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    max-width: 900px;
+    font-family: 'Poppins';
+  }
+  .description {
+    padding: 2rem 0px;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  .subtitle {
+    font-size: 1.4rem;
+    color: #f0f0f0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+  }
+  .skillsContainer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .skillsContainer > .skills{
+    width: 46%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+
+  }
+  .skills > .list{
+    
+   padding: 20px;
+   box-sizing: border-box;
+  }
+  .skills > .list >li{
+    text-align: start;
+  }
+  .skillsContainer > .softSkillsContainer{
+    width: 46%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: yellow;
+    color: black;
+    box-sizing: border-box;
+  }
+  .softSkillsContainer > .list{
+    padding: 20px;
+   box-sizing: border-box;
+   
+  }
+  .softSkillsContainer > .subtitle{
+    padding: 20px 0;
+    margin: 0;
+    color: black;
+    border-bottom: solid 2px black;
+  }
+  .softSkillsContainer > .list >li{
+    text-align: start;
+  }
+
+  @media (max-width: 768px) {
+    .aboutMeContainer {
+      padding: 0rem 1rem;
+      background-color: transparent;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      padding: 0 0.2rem;
+      font-size: 0.8rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+    .skillsContainer{
+      padding: 1rem 0;
+      flex-direction: column;
+      gap: 20px;
+    }
+  .skillsContainer > .skills{
+    width: 100%;
+  }
+  .skillsContainer > .softSkillsContainer{
+    width: 100%;
+  }
+    .list li {
+      font-size: 0.8rem;
+    }
+  }
+  
