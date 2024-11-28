@@ -21,6 +21,7 @@ export default function Header() {
                 <li>Inicio</li>
                 <li><a href="#sobre-mi">Sobre Mi</a></li>
                 <li><a href="#contactame">Contactame</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
             </ul>
             <ul className={style.listRedesContainer}>
               <li>

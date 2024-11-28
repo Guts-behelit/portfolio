@@ -1,0 +1,40 @@
+.aboutContainer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.aboutContainer > .aboutTitleContainer{
+    height: 80px;
+    margin: 0;
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.aboutTitleContainer > .aboutTitle {
+    padding: 0px 0;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.aboutContainer > .aboutSectionContainer{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width: 425px) {
+    .aboutContainer > .aboutTitleContainer{
+        height: 40px;
+        margin: 0;
+        padding: 0px 0px;
+        
+
+    }
+    .aboutTitleContainer > .aboutTitle {
+        padding: 10px 0;
+        margin: 0;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        background-color: white;
+    }
+}
