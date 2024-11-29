@@ -1,9 +1,9 @@
-import '../style/footer.css'
+import style from '../style/footer.module.css'
 
 export default function Footer() {
   return (
-    <footer className="footer">
-    <div className="footer-container">
+    <footer className={style.footer}>
+    <div className={style.footerContainer}>
       <div className="footer-about">
         <h3>Pensamiento del dia</h3>
         <p>La tecnología es el lienzo donde podemos pintar nuestras ideas.

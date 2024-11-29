@@ -6,24 +6,24 @@ import About from './components/About'
 import Footer from './components/Footer'
 import AboutMe from './components/AboutMe'
 import Proyects from './components/Proyects'
-import CardsContainer from './components/CardContainer'
-import { cardsData } from './data/ListImgs'
+
 import LogoSlider from './components/LogoSlider'
+import CardProyectsContainer from './components/CardProyectsContainer'
 function App() {
-  
+
 
   return (
     <>
-      <Header/>
-      <Front/>
-      <LogoSlider/>
+      <Header />
+      <Front />
+      <LogoSlider />
       <About>
-<AboutMe/>
+        <AboutMe />
       </About>
       <Proyects>
-        <CardsContainer cardsData={cardsData}/>
+        <CardProyectsContainer />
       </Proyects>
-      <Footer/>
+      <Footer />
     </>
   )
 }
