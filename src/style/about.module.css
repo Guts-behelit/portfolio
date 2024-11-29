@@ -6,8 +6,11 @@
 .aboutContainer > .aboutTitleContainer{
     height: 80px;
     margin: 0;
-    padding: 10px 0px;
+    padding: 20px 0px;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutTitleContainer > .aboutTitle {
     padding: 0px 0;

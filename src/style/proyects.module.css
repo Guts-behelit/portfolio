@@ -1,9 +1,9 @@
-.aboutContainer{
+.proyectsContainerMain{
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: transparent;
 }
-.aboutContainer > .aboutTitleContainer{
+.proyectsContainerMain > .proyectsTitleContainer{
     height: 80px;
     margin: 0;
     padding: 0px 0px;
@@ -12,27 +12,27 @@
     justify-content: center;
     align-items: center;
 }
-.aboutTitleContainer > .aboutTitle {
+.proyectsTitleContainer > .proyectsTitle {
     padding: 0px 0;
     background-color: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
 }
-.aboutContainer > .aboutSectionContainer{
+.proyectsContainerMain > .proyectsSectionContainer{
     background-color: transparent;
     display: flex;
     justify-content: center;
 
 }
 @media (max-width: 425px) {
-    .aboutContainer > .aboutTitleContainer{
+    .proyectsContainerMain > .proyectsTitleContainer{
         height: 40px;
         margin: 0;
         padding: 0px 0px;
         
 
     }
-    .aboutTitleContainer > .aboutTitle {
+    .proyectsTitleContainer > .proyectsTitle {
         padding: 10px 0;
         margin: 0;
         background-color: white;

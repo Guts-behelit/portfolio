@@ -23,7 +23,7 @@ function App() {
       <Proyects>
         <CardProyectsContainer />
       </Proyects>
-      <Footer />
+      <Footer/>
     </>
   )
 }
