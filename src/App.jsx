@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe'
 import Proyects from './components/Proyects'
 import CardsContainer from './components/CardContainer'
 import { cardsData } from './data/ListImgs'
+import LogoSlider from './components/LogoSlider'
 function App() {
   
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <Header/>
       <Front/>
+      <LogoSlider/>
       <About>
 <AboutMe/>
       </About>

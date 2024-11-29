@@ -8,15 +8,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
+    background: white;
     box-sizing: border-box;
-   
+   color: black;
 }
 .headerContainer > .logoContainer{
     width: 200px;
     height: 50px;
     box-sizing: border-box;
     color: black;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +40,6 @@
     height: 100%;
     padding: 10px 0px;
     background-color: transparent;
-    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     
 }
@@ -50,42 +50,43 @@
     list-style: none;
     display: flex;
     justify-content:space-evenly ;
+    align-items: center;
+    background-color:transparent;
 }
 .navContainer ul >li{
     font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     color: black;
-background-color: transparent;
-}
-.navContainer > .listNavContainer >li{
     background-color: transparent;
-    border-bottom: solid 2px transparent;
-    cursor:default;
+    border-bottom: solid 4px transparent;
 }
-.listNavContainer >li > a{
+
+.navContainer .listNavContainer > li > a{
     display: block;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     color: black;
     text-decoration: none;
     box-sizing: border-box;
    
 }
 .navContainer > .listNavContainer >li:hover{
-border-bottom: solid 2px  rgba(174,45,253,1);
+border-bottom: solid 4px  rgb(60, 255, 0);
 ;
 }
 .navContainer > .listRedesContainer{
-    padding: 0 40px;
+    max-width: 200px;
+    padding: 0 0px;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: transparent;
 }
 .listRedesContainer > li{
     padding: 0;
     margin: 0 10px;
-    background-color: aliceblue;
+    background-color: rgb(10, 133, 240);
 }
 .listRedesContainer > li > a:visited {
     color: inherit; /* Mantiene el color original */
