@@ -40,6 +40,7 @@
     background-color: black;
     color: white;
     box-sizing: border-box;
+    border-radius: 10px;
 
   }
   .skills > .list{
@@ -54,9 +55,10 @@
     width: 46%;
     height: 100%;
     padding: 0 10px;
-    background-color: yellow;
+    background-color: rgb(81, 255, 0);
     color: black;
     box-sizing: border-box;
+    border-radius: 10px;
   }
   .softSkillsContainer > .list{
     padding: 20px;
