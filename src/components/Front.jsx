@@ -12,7 +12,7 @@ export default function Front() {
             <p>En busqueda de la excelencia a travez de la <br />pasion por la programacion</p>
             </div>
             <div className={style.frontBtnContainer}>
-                <button>Echa un vistazo ↓</button>
+                <button><a href="#proyectos">Echa un vistazo ↓</a></button>
             </div>
         </div>
         <div className={style.frontImageContainer}>

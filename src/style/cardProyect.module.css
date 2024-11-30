@@ -1,7 +1,41 @@
+.cardProyect{
+  height: auto;
+  background-color: transparent;
+}
+.cardProyect > .descriptionProyect{
+  background-color: transparent;
+}
+.cardProyect > .descriptionProyect > ul{
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  background-color: transparent;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+.descriptionProyect > ul > li{
+  background-color: whitesmoke;
+  padding: 1rem 0.5rem;
+  border: solid 2px black;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.descriptionProyect > ul > li > img{
+  margin: 0;
+  padding: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 0.5rem;
+  background-color: transparent;
+}
 .container {
   width: auto;
   height: 180px;
-  
   margin: 0;
   z-index: 0;
   position: relative;
@@ -51,7 +85,9 @@
   top: 0;
   left: 0;
   z-index: 1;
+  display: block;
 }
+
 
 @media (max-width:425px){
 .container{
