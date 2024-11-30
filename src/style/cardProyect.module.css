@@ -1,6 +1,6 @@
 .container {
   width: auto;
-  height: 175px;
+  height: 180px;
   
   margin: 0;
   z-index: 0;
@@ -52,17 +52,9 @@
   left: 0;
   z-index: 1;
 }
-.textCard{
-  padding: 0 20px;
-  display: block;
-  position: absolute;
-  top:20%;
-  bottom: 0;
-  right: 0%;
-  z-index: 3;
-  font-size: 1.2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 700;
-  color: white;
-  display: none;
+
+@media (max-width:425px){
+.container{
+
+}
 }
