@@ -1,3 +1,3 @@
 # joshuadeveloper.vercel.app
 
-<img src="./public/img/screen-porfolio.png">
+<img src="./public/img/porfolio.png">
