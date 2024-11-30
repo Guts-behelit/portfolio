@@ -1,7 +1,9 @@
 import style from '../style/cardProyectContainer.module.css'
 import { CardProyect } from './CardProyect'
+//se importa las imagenes en svg
+import youvideo from '../../public/svg/YouVideo500.svg'
 const listImages = [
-    {url:'/img/screen-capture.gif',text:'youVideo'},
+    {url:'/img/YouVideo300.png',text:'youVideo'},
     {url:'/img/screen-capture.gif',text:'wolfbyte'},
     {url:'/img/screen-capture2.gif',text:'wolfbyte'}
 ]
